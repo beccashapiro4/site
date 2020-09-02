@@ -1,0 +1,10 @@
+body {
+    background-color: #f7c966;
+    font-family: "AppleGothic";
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
