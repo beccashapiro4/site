@@ -23,6 +23,10 @@ nav a.active {
   color: aqua;
 }
 
+.italic {
+    font-style: italic
+}
+
 .center {
   display: block;
   margin-left: auto;
