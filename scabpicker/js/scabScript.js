@@ -1,6 +1,10 @@
 var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 
+function goHome() {
+    window.location.href = "/default.html"
+}
+
 function placeScab(){
   var topShift = Math.random()*500;
   var leftShift = Math.random()*750;
@@ -151,8 +155,10 @@ context.clearRect(0, 0, canvas.width, canvas.height);
     switch(sat){
       case "N": alert("Course you're not!");
       location.reload();
-      case "Y": break;
-      case "y": break;
+      case "Y": goHome();
+            break
+      case "y": goHome();
+            break
       case "sing a song": alert("This is a song! What makes written text a song? If it says it's a song, then so it is a song. What is the melody? It has a melody. What is the rhythm? Let's be honest, if you're asking a scab picker for a song, you must have a funky taste in music.");
       location.reload();
       break;
