@@ -155,6 +155,7 @@ context.clearRect(0, 0, canvas.width, canvas.height);
     switch(sat){
       case "N": alert("Course you're not!");
       location.reload();
+            break
       case "Y": goHome();
             break
       case "y": goHome();
