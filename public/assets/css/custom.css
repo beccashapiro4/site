@@ -1,0 +1,375 @@
+import :-webkit-any()
+/*
+* --- Custom CSS Code ---
+*/
+
+.call-me {
+  color: rgb(60, 111, 99);
+}
+
+.main-style {
+  float: left;
+  background-image: 'url(assets/img/fish/background.jpg)';
+  background-size: cover;
+}
+
+.custom-nav {
+  background-color: transparent;
+  z-index: 200;
+  width: 300px;
+  height: 0px;
+  justify-content: left;
+}
+
+.custom-nav img {
+  width: 30%;
+  padding: 20px;
+}
+
+.custom-nav img:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+}
+
+.vertical {
+  float: left;
+  width: 100%;
+  /*border: 1px solid blue*/
+}
+
+.vertical>* {
+  display: block;
+  width: 100%;
+}
+
+.call-me:hover {
+  color: rgb(95, 217, 189)
+}
+
+.floating {
+  box-sizing: border-box;
+  background: #4D60A8;
+  color: #FFF;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2),
+    0 24px 38px 3px rgba(0, 0, 0, .14),
+    0 9px 46px 8px rgba(0, 0, 0, .12);
+}
+
+.contact-form {
+  box-sizing: border-box;
+  background: #4D60A8;
+  color: #FFF;
+  float: left;
+  font-family: sans-serif;
+  transform: translate(0%, 65%);
+  padding: 20px;
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2), 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12);
+}
+
+.contact-form.contact-sheet {
+  transform: translate(100%, 100%);
+  width: 25%;
+}
+
+.contact-form.contact-sheet h5,
+.contact-form.contact-sheet h6 {
+  color: #FFF;
+}
+
+.contact-form.contact-form-form {
+  float: inline-start;
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-form.contact-sheet {
+    float: inline-start;
+    width: 100%;
+    transform: translate(0%, -100%);
+  }
+
+  .contact-form.contact-form-form {
+    float: inline-end;
+    transform: translate(0%, -35%);
+    width: 100%;
+  }
+
+  .background-hand {
+    display: none;
+  }
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.contact-form span {
+  display: none;
+  text-align: center;
+}
+
+.contact-form span.visible {
+  display: block;
+}
+
+.background-hand {
+  position: absolute;
+  right: -5%;
+  transform: translate(20%, -50%);
+  width: 30%;
+  animation: ghost 4s infinite;
+}
+
+.font-title,
+.font-raleway {
+  font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+.row#about {
+  position: relative;
+  display: table;
+  text-align: center;
+}
+
+.row#about .right-side {
+  float: right;
+  right: 0px;
+  width: 50%;
+}
+
+.left-side {
+  float: left;
+  width: 50%;
+}
+
+.half-size {
+  width: 50%;
+  height: 50%;
+}
+
+.top-side {
+  float: inline-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.big-head {
+  position: relative;
+  right: -25%;
+  top: -50%;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .row#about {
+    padding: 20px;
+  }
+
+  .row#about .right-side {
+    float: inline-start;
+    width: 100%;
+  }
+
+  .left-side {
+    float: inline-end;
+    width: 100%;
+  }
+}
+
+#rainbow-logo {
+  -webkit-animation: rainbow 4s steps(36) infinite;
+  animation: rainbow 4s steps(36) infinite;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+#pulsing {
+  animation: heartbeat 3s 1s infinite;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img.footer {
+  float: left;
+  width: 50%;
+}
+
+.bottom-custom {
+  display: flex;
+  align-items: baseline;
+}
+
+.column-custom {
+  box-sizing: border-box;
+  float: left;
+  align-self: flex-end;
+}
+
+.left-custom,
+.right-custom {
+  width: 33%;
+}
+
+.left-custom {
+  margin-right: 5%;
+}
+
+.right-custom {
+  margin-left: 5%;
+}
+
+.middle-custom {
+  width: 24%;
+  transform: translate(0%, 200%);
+}
+
+@media only screen and (max-width: 768px) {
+  .middle-custom {
+    width: 24%;
+    transform: translate(0%, 50%);
+  }
+}
+
+/*
+* --- Animations ---
+*/
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(.95);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(.95);
+  }
+
+  100% {
+    transform: scale(.95);
+  }
+}
+
+@keyframes ghost {
+  0% {
+    transform: translateY(0%);
+  }
+
+  5% {
+    transform: translateY(0%);
+  }
+
+  60% {
+    transform: translateY(5%);
+  }
+
+  65% {
+    transform: translateY(5%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes rainbow {
+  from {
+    -webkit-filter: hue-rotate(10deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes rainbow {
+  from {
+    -webkit-filter: hue-rotate(10deg);
+    filter: hue-rotate(10deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*
+* --- Dividers ---
+*/
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
