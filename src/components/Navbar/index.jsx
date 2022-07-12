@@ -20,7 +20,7 @@ const Navbar = () => {
               <a className='nav-link' href="https://instagram.com/bex_00_xeb/">Instagram</a>
             </li>
             <li className='vertical'>
-              <a className='nav-link' href="https://perchance.org/fish-species">What fish?</a>
+              <a className='nav-link' href="https://perchance.org/fish-species">Fish</a>
             </li>
           </ul>
         </div>
