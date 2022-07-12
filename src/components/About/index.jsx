@@ -18,7 +18,7 @@ const About = () => {
                   from Duke University. She went on to create the experimental social media startup
                   <a href="https://techcrunch.com/2020/08/25/muze-redesigns-mobile-messaging-as-a-free-form-canvas-for-creativity/"> Muze Collective </a>
                   where she worked until May 2021. In addition to her creative pursuits, Becca works as a software engineer, tutor,
-                  and anything else you'll pay her for within reasonable physical and/or legal safety standards.
+                  and anything else you'll pay for within reasonable physical and/or legal limits.
                   Please reach out via email or Instagram with any questions or if you just want to chat.
                 </p>
                 <a href='https://en.wikipedia.org/wiki/Special:Random'><img src={'assets/img/fish/work-mode.jpg'} style={{ width: '10%' }} /></a>
