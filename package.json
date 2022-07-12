@@ -1,7 +1,7 @@
 {
   "name": "becca.fish",
   "version": "0.1.0",
-  "homepage": "http://www.becca.fish",
+  "homepage": "http://becca.fish",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^2.8.10",
