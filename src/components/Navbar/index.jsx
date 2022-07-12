@@ -17,7 +17,7 @@ const Navbar = () => {
               <a className="nav-link" href="mailto:beccashapiro4@gmail.com">Email</a>
             </li>
             <li className='vertical'>
-              <a className='nav-link' href='url(https://www.instagram.com/bex_00_xeb/)'>Instagram</a>
+              <a className='nav-link' href="https://www.instagram.com/bex_00_xeb/">Instagram</a>
             </li>
           </ul>
         </div>
