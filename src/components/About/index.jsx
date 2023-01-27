@@ -13,13 +13,13 @@ const About = () => {
                 <h2> Nice To Meet You </h2>
                 <h5>...this site is a work in progress...</h5>
                 <p>
-                  Becca Shapiro is an author/illustrator who splits time between Philadelphia, PA and Queens, NY.
-                  In 2019 Becca received her B.A. in Mathematics and Creative Writing
-                  from Duke University. She went on to create the experimental social media startup
+                  I am an author/illustrator/animator who splits time between Philadelphia, PA and Queens, NY.
+                  I graduated from Duke University in 2019 with degrees in Mathematics and creative writing.
+                  I spent a few years learning software engineering to build the experimental social media startup
                   <a href="https://techcrunch.com/2020/08/25/muze-redesigns-mobile-messaging-as-a-free-form-canvas-for-creativity/"> Muze Collective </a>
-                  where she worked until May 2021. In addition to her creative pursuits, Becca works as a software engineer, tutor,
+                  with a few of my buddies. In addition to my creative pursuits, I work as a barista, tutor, amateur comedian
                   and anything else you'll pay for within reasonable physical and/or legal limits.
-                  Please reach out via email or Instagram with any questions or if you just want to chat.
+                  Please reach out via email or Instagram with any questions or if you just want to chat :)
                 </p>
                 <a href='https://en.wikipedia.org/wiki/Special:Random'><img src={'assets/img/fish/work-mode.jpg'} style={{ width: '10%' }} /></a>
               </div>
