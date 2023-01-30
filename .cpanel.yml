@@ -2,14 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/beccafis/public_html/
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
-    - /bin/cp -R src $DEPLOYPATH
-    - /bin/cp -R static $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp favicon.ico $DEPLOYPATH
-    - /bin/cp asset-manifest.json $DEPLOYPATH
-    - /bin/cp manifest.json $DEPLOYPATH
-    - /bin/cp env.js $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
     
