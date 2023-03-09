@@ -11,16 +11,16 @@ const Navbar = () => {
           </Link>
           <ul className="vertical">
             <li className="vertical">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="/about" style={{ display: 'inline' }}>About</Link>
             </li>
             <li className="vertical">
-              <a className="nav-link" href="mailto:beccashapiro4@gmail.com">Email</a>
+              <a className="nav-link" href="mailto:beccashapiro4@gmail.com" style={{ display: 'inline' }}>Email</a>
             </li>
             <li className='vertical'>
-              <a className='nav-link' href="https://instagram.com/bex_00_xeb/">Instagram</a>
+              <a className='nav-link' href="https://instagram.com/bex_00_xeb/" style={{ display: 'inline' }}>Instagram</a>
             </li>
             <li className='vertical'>
-              <a className='nav-link' href="https://perchance.org/fish-species">Fish</a>
+              <a className='nav-link' href="https://perchance.org/fish-species" style={{ display: 'inline' }}>Fish</a>
             </li>
           </ul>
         </div>
