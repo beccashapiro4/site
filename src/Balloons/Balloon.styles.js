@@ -89,6 +89,7 @@ export const StyledBalloon = styled.div`
   border-radius: 100% 100% 100% 100%;
   transform: rotateZ(${props => props.rotation}deg);
   text-align: center;
+  cursor: pointer;
   position: fixed;
   .show {
     display: block;

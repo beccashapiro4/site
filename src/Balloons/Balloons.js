@@ -70,12 +70,12 @@ export const Balloon = ({ msgText, colors, popVolumeLevel, loop, hangOnTop, supp
 		<>
 			{
 				show ?
-					<StyledBalloon
+					<StyledBalloon className="styled_balloon"
 						img={randomHead()}
 						color={randomColor(colors)}
 						hue={randomHue()}
 						rotation={randomRotation()}
-						onClick={supportsTouch ? popBalloon : null}
+						onClick={popBalloon}
 						onDoubleClickCapture={supportsTouch ? null : popBalloon}
 						animate={{
 							delay,
