@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <main className="main-content">
         <div className="section" id="section-content" style={{ backgroundImage: 'url(/assets/img/fish/background.jpg)', backgroundSize: 'cover' }}>
-          <div className="container">
+          <div className="container" id="no-touch">
             <div className="row" id="about">
               <img className='left-side' id='rainbow-logo' src={'assets/img/fish/fish-hand.PNG'} />
               <div className="right-side" >

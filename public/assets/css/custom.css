@@ -58,6 +58,20 @@ import :-webkit-any()
     0 9px 46px 8px rgba(0, 0, 0, .12);
 }
 
+/* TOUCH (handle passing touches through) */
+#no-touch {
+  pointer-events: none;
+}
+
+#no-touch a {
+  pointer-events: all;
+}
+
+#touchable {
+  pointer-events: all;
+}
+
+/* CONTACT FORM */
 .contact-form {
   box-sizing: border-box;
   background: #4D60A8;
