@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './../Banner';
 import Article from './../Article';
 import { ReactFloatingBalloons } from '../../Balloons';
+import { DinoGame } from '../../DinoGame/Game';
 import firebase from "firebase/compat/app"
 import "firebase/compat/auth"
 import "firebase/compat/firestore"
