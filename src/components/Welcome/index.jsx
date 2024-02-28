@@ -15,7 +15,7 @@ const Welcome = () => {
       <main className="main-content bg-gray">
         <div className="row" style={{ backgroundImage: 'url(/assets/img/fish/dog-cat.jpg)', backgroundSize: 'cover', height: '1000px', backgroundPosition: 'center' }}>
           <div style={{ position: 'relative' }} >
-            < DinoGame />
+            < ReactFloatingBalloons />
           </div>
         </div>
 
