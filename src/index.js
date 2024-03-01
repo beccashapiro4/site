@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, withRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
 import Footer from './components/Footer';
@@ -32,29 +32,21 @@ const firebaseConfig = {
 //<img src={'assets/img/fish/background.jpg'} />
 //url('http://www.birds.com/wp-content/uploads/home/bird4.jpg')
 
-const Main = withRouter(({ location }) => {
+function Main() {
   return (
     <div style={{ backgroundImage: 'url(http://www.birds.com/wp-content/uploads/home/bird4.jpg)', backgroundSize: 'cover', height: '100%' }} >
 
-      {
-        location.pathname !== '/login' && location.pathname !== '/signup' &&
-        <Navbar />
-      }
-
-      <Route exact path="/" component={Welcome} />
-      <Route path="/blog" component={Blog} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/services" component={Services} />
-      <Route path="/samples" component={SampleEssaysPage} />
-      <Route path="/login" component={Login} />
-      <Route path="/article/:slug" component={SingleArticle} />
-      <Route path="/articles/create" component={CreateArtice} />
-      <Route path="/signup" component={SignUp} />
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Welcome />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
     </div>
   );
-});
+};
 
 firebase.initializeApp(firebaseConfig);
 firebase.firestore();
