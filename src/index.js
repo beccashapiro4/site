@@ -3,16 +3,10 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
-import Footer from './components/Footer';
-import Login from './components/Login';
-import SignUp from './components/SignUp/index';
-import SingleArticle from './components/SingleArticle';
-import CreateArtice from './components/CreateArticle';
 import Blog from './components/Blog';
 import About from './components/About';
 import Contact from './components/Contact';
-import Services from './components/Services';
-import SampleEssaysPage from './components/SampleEssaysPage';
+import Portfolio from './components/Portfolio';
 import * as serviceWorker from './serviceWorker';
 import firebase from "firebase/compat/app"
 import "firebase/compat/auth"
@@ -42,6 +36,7 @@ function Main() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
 
     </div>

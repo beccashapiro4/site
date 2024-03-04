@@ -1,0 +1,18 @@
+.rounded_rect {
+    outline: solid 3px #1d4755;
+    outline-offset: -3px;
+    border-radius: 15px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 530px;
+    height: 359px;
+}
+
+.yellow {
+    background-color: #f6ddab;
+}
+
+.green {
+    background-color: #93beb9;
+}
