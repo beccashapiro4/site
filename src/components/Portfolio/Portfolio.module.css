@@ -1,12 +1,17 @@
+.portfolio_body {
+    background-color: #F4EEE0;
+    height: 1000px;
+}
+
 .rounded_rect {
-    outline: solid 3px #1d4755;
-    outline-offset: -3px;
+    outline: solid 2px #1d4755;
+    outline-offset: -2px;
     border-radius: 15px;
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 530px;
-    height: 359px;
+    aspect-ratio: 530/359;
+    width: 40%;
 }
 
 .yellow {
@@ -15,4 +20,23 @@
 
 .green {
     background-color: #93beb9;
+}
+
+.perp {
+    background-color: #C2C0F9;
+}
+
+.oranj {
+    background-color: #F7BB99;
+}
+
+.image {
+    position: absolute;
+}
+
+.rounded_img {
+    outline: solid 2px #1d4755;
+    outline-offset: -2px;
+    border-radius: 15px;
+    position: absolute;
 }
