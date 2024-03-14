@@ -1,17 +1,43 @@
 .portfolio_body {
     background-color: #F4EEE0;
-    height: 1000px;
+    width: 100%;
+    right: 0px;
+}
+
+.portfolio_header_1 {
+    position: absolute;
+    left: -10%;
+    top: 8%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    color: #1d4755;
+    outline: solid 2px #1d4755;
+    background-color: #F4EEE0;
+}
+
+.portfolio_header {
+    position: absolute;
+    left: -12%;
+    top: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color: #F4EEE0;
+    background-color: #1d4755;
 }
 
 .rounded_rect {
     outline: solid 2px #1d4755;
     outline-offset: -2px;
-    border-radius: 15px;
-    position: absolute;
-    top: 20px;
+    border-radius: 8px;
+    position: relative;
     left: 20px;
     aspect-ratio: 530/359;
-    width: 40%;
+    width: 36%;
 }
 
 .yellow {
@@ -37,6 +63,6 @@
 .rounded_img {
     outline: solid 2px #1d4755;
     outline-offset: -2px;
-    border-radius: 15px;
+    border-radius: 8px;
     position: absolute;
 }
