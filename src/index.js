@@ -7,6 +7,7 @@ import Blog from './components/Blog';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Cocktail from './components/CFF_Cocktail';
 import * as serviceWorker from './serviceWorker';
 import firebase from "firebase/compat/app"
 import "firebase/compat/auth"
@@ -37,6 +38,7 @@ function Main() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/cocktail" element={<Cocktail />} />
       </Routes>
 
     </div>

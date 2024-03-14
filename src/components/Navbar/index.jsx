@@ -17,6 +17,9 @@ const Navbar = () => {
               <Link className='nav-link' to="/portfolio">Portfolio</Link>
             </li>
             <li className="vertical">
+              <Link className='nav-link' to="/cocktail">Cocktail</Link>
+            </li>
+            <li className="vertical">
               <a className='nav-link' href="mailto:beccashapiro4@gmail.com">Email</a>
             </li>
             <li className='vertical'>

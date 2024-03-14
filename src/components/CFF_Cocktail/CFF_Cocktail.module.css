@@ -1,0 +1,27 @@
+.cocktail_body {
+    position: relative;
+    text-align: center;
+    height: max-content;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    background-color: #0f0f0f;
+    color: magenta;
+}
+
+.image {
+    width: 75%;
+    height: auto;
+    left: 100px;
+    top: 100px;
+}
+
+.cocktail_drink {
+    position: absolute;
+    top: 228px;
+    left: 112px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
