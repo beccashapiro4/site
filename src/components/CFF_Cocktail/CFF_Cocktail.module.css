@@ -1,11 +1,9 @@
 .cocktail_body {
     position: relative;
-    text-align: center;
     height: max-content;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #0f0f0f;
-    color: magenta;
+    color: black;
 }
 
 .image {
@@ -17,11 +15,27 @@
 
 .cocktail_drink {
     position: absolute;
-    top: 228px;
-    left: 112px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 250%;
-    background-color: white;
-    color: blue;
-    text-align: center;
+    top: 14%;
+    left: 8%;
+    width: 50%;
+    font-size: 5vw;
+}
+
+.ingredient {
+    position: absolute;
+    width: 50%;
+    font-size: 3vw;
+}
+
+.ing1 {
+    top: 55.5%;
+    left: 30.5%;
+    text-align: left;
+}
+
+.ing2 {
+    top: 60.5%;
+    left: 29%;
+    text-align: left;
+    font-size: 2.5vw;
 }

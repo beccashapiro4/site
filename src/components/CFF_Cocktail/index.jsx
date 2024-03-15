@@ -9,8 +9,12 @@ const CFF_Coctail = () => {
     return (
         <div>
             <main className="main-content">
-                <h2 classname={classes.cocktail_drink} >Cocktail Name, Cocktail Name, Cocktail Name</h2>
-                <img src={background} className={classes.image} />
+                <div className={classes.cocktail_body}>
+                    <div className={classes.cocktail_drink} >Cocktail Name, Cocktail Name</div>
+                    <div className={`${classes.ingredient} ${classes.ing1}`}>Ingredient 1</div>
+                    <div className={`${classes.ingredient} ${classes.ing2}`}>Ingredient 2</div>
+                    <img src={background} className={classes.image} />
+                </div>
             </main>
 
         </div>
