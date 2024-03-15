@@ -6,8 +6,10 @@ import { Link } from 'react-router-dom';
 const fish_sticks_3 = 'assets/img/portfolio/fish-sticks.png';
 const The_Soup = 'assets/img/portfolio/The_Soup.png';
 const Suits = 'assets/img/portfolio/Twins_1.png';
+const YinYang = 'assets/img/portfolio/Twins_2.png';
 const Worm_Guy = 'assets/img/portfolio/Butterfly_Man.png';
 const iPhone = 'assets/img/portfolio/iPhone.png';
+const Wormhole = 'assets/img/portfolio/Wormhole.png';
 
 /*
 function Rounded_Rect({ left = 'auto', right = 'auto', top = 'auto', width = '369', color }) {
@@ -43,6 +45,10 @@ const Portfolio = () => {
                     </div>
                     <div className={`${classes.perp} ${classes.rounded_rect}`} style={{ transform: 'translateY(-34%)', left: '40%' }}>
                         <img src={iPhone} className={classes.image} style={{ width: '95%', left: '-10%', top: '-20%' }} />
+                    </div>
+                    <div className={`${classes.oranj} ${classes.rounded_rect}`} style={{ top: '50%', left: '20%' }}>
+                        <img src={Wormhole} className={classes.image} style={{ width: '100%', left: '-20%', top: '0%' }} />
+                        <img src={YinYang} className={classes.image} style={{ width: '30%', left: '85%', top: '20%' }} />
                     </div>
                 </div>
             </main>
