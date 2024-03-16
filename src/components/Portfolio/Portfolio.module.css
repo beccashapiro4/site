@@ -1,0 +1,68 @@
+.portfolio_body {
+    background-color: #F4EEE0;
+    width: 100%;
+    right: 0px;
+}
+
+.portfolio_header_1 {
+    position: absolute;
+    left: -10%;
+    top: 8%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    color: #1d4755;
+    outline: solid 2px #1d4755;
+    background-color: #F4EEE0;
+}
+
+.portfolio_header {
+    position: absolute;
+    left: -12%;
+    top: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    color: #F4EEE0;
+    background-color: #1d4755;
+}
+
+.rounded_rect {
+    outline: solid 2px #1d4755;
+    outline-offset: -2px;
+    border-radius: 8px;
+    position: relative;
+    left: 20px;
+    aspect-ratio: 530/359;
+    width: 36%;
+}
+
+.yellow {
+    background-color: #f6ddab;
+}
+
+.green {
+    background-color: #93beb9;
+}
+
+.perp {
+    background-color: #C2C0F9;
+}
+
+.oranj {
+    background-color: #F7BB99;
+}
+
+.image {
+    position: absolute;
+}
+
+.rounded_img {
+    outline: solid 2px #1d4755;
+    outline-offset: -2px;
+    border-radius: 8px;
+    position: absolute;
+}
