@@ -11,6 +11,7 @@ const YinYang = 'assets/img/portfolio/Twins_3.png';
 const Worm_Guy = 'assets/img/portfolio/Butterfly_Man.png';
 const iPhone = 'assets/img/portfolio/iPhone.png';
 const Wormhole = 'assets/img/portfolio/Wormhole.png';
+const Muze_Icons = 'assets/img/portfolio/Muze_Icons_Collection.png';
 
 /*
 function Rounded_Rect({ left = 'auto', right = 'auto', top = 'auto', width = '369', color }) {
@@ -46,6 +47,7 @@ const Portfolio = () => {
                     </div>
                     <div className={`${classes.perp} ${classes.rounded_rect}`} style={{ transform: 'translateY(-34%)', left: '40%' }}>
                         <img src={iPhone} className={classes.image} style={{ width: '95%', left: '-10%', top: '-20%' }} />
+                        <img src={Muze_Icons} className={classes.image} style={{ width: '66%', left: '36%', top: '42%' }} />
                     </div>
                     <div className={`${classes.oranj} ${classes.rounded_rect}`} style={{ top: '50%', left: '20%' }}>
                         <img src={Wormhole} className={classes.image} style={{ width: '100%', left: '-20%', top: '0%' }} />
