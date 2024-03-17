@@ -14,6 +14,9 @@ const Wormhole = 'assets/img/portfolio/Wormhole.png';
 const Muze_Icons = 'assets/img/portfolio/Muze_Icons_Collection.png';
 const Mothers_Day = 'assets/img/portfolio/Mothers_Day.png';
 const The_Nun = 'assets/img/portfolio/The_Nun.png';
+const Bird_In_Hand = 'assets/img/portfolio/Remotion/Bird_In_Hand_4.jpg';
+const Finn = 'assets/img/portfolio/Finn_With_Sock.png';
+const Poco = 'assets/img/portfolio/Poco.png';
 
 /*
 function Rounded_Rect({ left = 'auto', right = 'auto', top = 'auto', width = '369', color }) {
@@ -61,6 +64,14 @@ const Portfolio = () => {
                     </div>
                     <div className={`${classes.green} ${classes.rounded_rect}`} style={{ transform: 'translateY(56%)', left: '5%' }}>
                         <img src={The_Soup} className={classes.rounded_img} style={{ width: '70%', left: '24%', top: '-40%' }} />
+                    </div>
+                    <div className={`${classes.yellow} ${classes.rounded_rect}`} style={{ transform: 'translateY(69%)', left: '30%' }}>
+                        <img src={Bird_In_Hand} className={classes.rounded_img} style={{ width: '65%', left: '-10%', top: '20%' }} />
+                        <img src={Worm_Guy} className={classes.image} style={{ width: '95%', left: '32%', top: '-65%' }} />
+                    </div>
+                    <div className={`${classes.perp} ${classes.rounded_rect}`} style={{ transform: 'translateY(104%)', left: '55%' }}>
+                        <img src={Finn} className={classes.rounded_img} style={{ width: '60%', left: '55%', top: '-40%' }} />
+                        <img src={Poco} className={classes.rounded_img} style={{ width: '55%', left: '-10%', top: '26%' }} />
                     </div>
                 </div>
             </main>
