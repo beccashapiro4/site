@@ -5,7 +5,6 @@ import Navbar from './components/Navbar';
 import Welcome from './components/Welcome';
 import Blog from './components/Blog';
 import About from './components/About';
-import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Cocktail from './components/CFF_Cocktail';
 import * as serviceWorker from './serviceWorker';
@@ -36,7 +35,6 @@ function Main() {
         <Route exact path="/" element={<Welcome />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/cocktail" element={<Cocktail />} />
       </Routes>
