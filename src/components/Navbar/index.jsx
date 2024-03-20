@@ -14,6 +14,9 @@ const Navbar = () => {
               <Link className='nav-link' to="/about">About</Link>
             </li>
             <li className="vertical">
+              <a className='nav-link' href={`${process.env.PUBLIC_URL}/assets/pdf/Static_Portfolio_C_Link.pdf`}>Portfolio</a>
+            </li>
+            <li className="vertical">
               <a className='nav-link' href="mailto:beccashapiro4@gmail.com">Email</a>
             </li>
             <li className='vertical'>
