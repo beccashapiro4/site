@@ -13,7 +13,7 @@ const About = () => {
                 <h2> You look great today. </h2>
                 <h5>Seriously. Love what you're doing with your hair.</h5>
                 <p>
-                  My name’s Becca Shapiro. I’m a multidisciplinary artist, working across eclectic mediums including: fiction writing, screenwriting, illustration, animation, & standup comedy.
+                  My name’s Dani Shapiro. I’m a multidisciplinary artist, working across eclectic mediums including: fiction writing, screenwriting, illustration, animation, & standup comedy.
                   I was born in Philly, now based in Queens, NY.
                   I graduated from Duke University with a B.A. in Mathematics and Creative Writing.
                   I’ve nearly always got a pen in my hand and pins & needles in my toes.
@@ -30,12 +30,13 @@ const About = () => {
                   Please reach out via email or Instagram with any questions or if you wanna say what's up :)
                 </p>
                 <p>
-                  - B
+                  - Dani
                 </p>
                 <p>
-                  P.S. Apologies for technical difficulties! I am still in the process of developing this site.
-                </p>
-                <a href='https://en.wikipedia.org/wiki/Special:Random'><img src={'assets/img/fish/work-mode.jpg'} style={{ width: '10%' }} /></a>
+                  P.S. In case of confusion: you may know me as "Becca." In Spring of 2024 I switched to going by Dani, short for Danielle, my middle name.
+                  I anticipate this name sticking for at least five years, but not more than a dozen.
+                  It's good to refresh one's name about once a decade.
+                  <a href='https://en.wikipedia.org/wiki/Special:Random'><img src={'assets/img/fish/work-mode.jpg'} style={{ width: '10%' }} /></a>
               </div>
             </div>
           </div>
