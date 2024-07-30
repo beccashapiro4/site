@@ -33,10 +33,11 @@ const About = () => {
                   - Dani
                 </p>
                 <p>
-                  P.S. In case of confusion: you may know me as "Becca." In Spring of 2024 I switched to going by Dani, short for Danielle, my middle name.
+                  P.S. In case of confusion: you may know me as "Becca." In Spring of 2024 I started going by "Dani" short for Danielle.
                   I anticipate this name sticking for at least five years, but not more than a dozen.
                   It's good to refresh one's name about once a decade.
                   <a href='https://en.wikipedia.org/wiki/Special:Random'><img src={'assets/img/fish/work-mode.jpg'} style={{ width: '10%' }} /></a>
+                </p>
               </div>
             </div>
           </div>
