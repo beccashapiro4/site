@@ -10,20 +10,17 @@ const About = () => {
             <div className="row" id="about">
               <img className='left-side' id='rainbow-logo' src={'assets/img/fish/fish-hand.PNG'} />
               <div className="right-side" >
-                <h2> You look great today. </h2>
-                <h5>Seriously. Love what you're doing with your hair.</h5>
+                <h2> Nice to meet you </h2>
+                <h5> You look great today :) </h5>
                 <p>
-                  My name’s Dani Shapiro. I’m a multidisciplinary artist, working across eclectic mediums including: fiction writing, screenwriting, illustration, animation, & standup comedy.
+                  My name’s Dani Shapiro. I’m a multidisciplinary artist, working across eclectic media including: fiction writing, filmmaking, illustration, animation, & songwriting.
                   I was born in Philly, now based in Queens, NY.
                   I graduated from Duke University with a B.A. in Mathematics and Creative Writing.
-                  I’ve nearly always got a pen in my hand and pins & needles in my toes.
+                  I’ve nearly always got a book my hands and pins & needles in my toes.
                 </p>
                 <p>
                   My main pursuit at the moment is the creation (writing, directing, animating, scoring) of the animated show FRESHWATER: an absurdist dark-comedy about anthropomorphic fish struggling with existential dread.
-                  I'm also developing a live-action feature, and completing a series of oil paintings called "Fish & Phalanges."
-                </p>
-                <p>
-                  When I'm not neck-deep in fictional worlds, you can find me behind the bar at The Center For Fiction in Fort Greene, Brooklyn, where I work as a barista/bartender and enthusiastic book-recommender.
+                  I'm also writing an absurdist-realist novel, composing an album based on Julio Cortazar's BLOW-UP AND OTHER STORIES, and completing a series of oil paintings called "Fish & Phalanges."
                 </p>
                 <p style={{ fontWeight: 'bold' }}>
                   I’m currently open for writing assignments, design work and commissions.
@@ -33,7 +30,7 @@ const About = () => {
                   - Dani
                 </p>
                 <p>
-                  P.S. In case of confusion: you may know me as "Becca." In Spring of 2024 I started going by "Dani" short for Danielle.
+                  P.S. In case of confusion: you may know me as "Becca" -- in 2024 I started going by "Dani".
                   I anticipate this name sticking for at least five years, but not more than a dozen.
                   It's good to refresh one's name about once a decade.
                   <a href='https://en.wikipedia.org/wiki/Special:Random'><img src={'assets/img/fish/work-mode.jpg'} style={{ width: '10%' }} /></a>
