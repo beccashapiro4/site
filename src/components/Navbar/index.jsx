@@ -23,7 +23,7 @@ const Navbar = () => {
               <a className='nav-link' href="https://instagram.com/fish_stick_lava_lamp/">Instagram</a>
             </li>
             <li className='vertical'>
-              <a className='nav-link' href="https://perchance.org/fish-species">Fish</a>
+              <a className='nav-link' href="https://worm-time.dani.fish">What's The Time?</a>
             </li>
           </ul>
         </div>
